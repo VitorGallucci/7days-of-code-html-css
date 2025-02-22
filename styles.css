@@ -53,3 +53,36 @@
     border-radius: 8px;
     margin-left: 12px;
 }
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.sobre {
+    color: var(--vermelho);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+.h2 {
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.apresentacao {
+    color: var(--cinza-medio);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 0;
+    width: 50%;
+    line-height: 30px;
+}
