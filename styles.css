@@ -9,6 +9,10 @@
     --fonte-principal: 'Inter', sans-serif;
 }
 
+body {
+    font-family: var(--fonte-principal);
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -85,4 +89,69 @@
     padding: 12px 0;
     width: 50%;
     line-height: 30px;
+}
+
+.metricas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    font-family: var(--fonte-principal);
+    padding: 0 90px;
+}
+
+h3 {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metricas__desc {
+    color: var(--preto);
+    font-size: 18px;
+}
+
+.metricas__texto {
+    color: var(--cinza-medio);
+    font-size: 16px;
+}
+
+.metricas__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.talentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 80px 64px 80px;
+}
+
+.vagas {
+    font-size: 14px;
+    color: var(--vermelho);
+    background-color: rgba(195, 25, 25, 0.1);
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.talentos__titulo {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.talentos__desc {
+    color: var(--cinza-medio);
+    font-size: 20px;
+}
+
+.talentos__imagem {
+    margin-top: 64px;
 }
