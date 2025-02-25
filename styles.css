@@ -155,3 +155,61 @@ h3 {
 .talentos__imagem {
     margin-top: 64px;
 }
+
+.section__vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 336px;
+}
+
+.vaga__tipo {
+    padding-bottom: 32px;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.vaga__tipo2 {
+    padding-bottom: 32px;
+    padding-top: 64px;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.vaga {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px;
+    margin: 12px 0;
+}
+
+.nome__vaga {
+    width: 100%;
+    color: var(--preto);
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+.vaga__desc {
+    color: var(--cinza-medio);
+    font-size: 16px;
+    padding-right: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
