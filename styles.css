@@ -198,6 +198,46 @@ h3 {
     padding-right: 24px;
 }
 
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 96px 112px;
+    background-color: rgba(195, 25, 25, 0.05);
+    padding: 64px;
+    border-radius: 16px;
+}
+
+.depoimento__titulo {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.depoimento__texto {
+    color: var(--preto);
+    font-size: 36px;
+    padding-bottom: 32px;
+}
+
+.colaborador {
+    padding-bottom: 16px;
+}
+
+.colaborador__nome {
+    color: var(--preto);
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.colaborador__profissao {
+    color: var(--cinza-medio);
+    font-size: 14px;
+}
+
 
 
 
